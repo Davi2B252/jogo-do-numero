@@ -6,3 +6,12 @@ const envioPalpite = document.querySelector('.envioPalpite');
 const campoPalpite = document.querySelector('.campoPalpite');
 let contagemPalpites = 1;
 let botaoReiniciar;
+
+function verificarpalpites() {
+    const palpiteusuario = number(campoPalpite.value);
+    if (contagemPalpites === 1) {
+        palpites.textContent = 'palpites anteriores'
+
+    }
+}
+    
